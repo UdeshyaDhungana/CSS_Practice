@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+header{
+    padding: 1.5em 1em 1.5em 1em;
+    background-color: rgb(107, 220, 255);
+    display: flex;
+}
+header h1{
+    font-size: 2.8em;
+    color: rgb(0, 134, 67);
+    font-weight: lighter;
+}
+header > div{
+    flex-grow: 2;
+    align-self: flex-end;
+    padding-left: 3em;
+}
+header > p{
+    text-align: right;
+    align-self: flex-end;
+}
+
+header input{
+    /* Removes system level styling */
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25em;
+    border-radius: 10px;
+    background-color: rgba(227, 249, 255, 0.9);
+    height: 2em;
+}
+
+header button{
+    background-color: rgb(0, 81, 90);
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    padding: 0.2em;
+    width: 6em;
+}
+
+
+nav{
+    background-color: rgb(240, 240, 240);
+    padding: 1em 0;
+    color: #4e4e4e;
+}
+
+nav ul{
+    display: inline;
+    margin-left: 3em;
+}
+
+nav li{
+    display: inline;
+}
+
+nav li+li{
+    margin: 1em;
+}
+
+nav a:hover{
+    color: #000000
+}
+
+.right{
+    float: right;
+    margin-right: 2em;    
+}
+
+.main-body{
+    display: flex;
+    margin: 2em;
+    justify-content: space-between;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.left-aside{
+    flex-basis: 20%;
+    background-color: rgb(240, 240, 240);
+}
+
+h3{
+    color: white;
+    background-color: rgb(107, 220, 255);
+    padding: 0.8em;
+}
+
+.left-aside ul, .right-aside ul{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-aside a, .right-aside a{
+    margin: 0;
+    display: block;
+    padding: 0.9em;
+}
+
+.left-aside a:hover, .right-aside a:hover{
+    background-color: white;
+}
+
+.right-aside{
+    flex-basis: 20%;
+    background-color: rgb(240, 240, 240);
+}
+
+section{
+    flex-basis: 55%;
+    color: rgb(68, 68, 68);
+}
+
+section h2{
+    font-size: 2em;
+}
+
+.entry-types{
+    display: flex;
+    border-bottom: 3px solid rgb(107, 220, 255);
+    justify-content: space-between;
+    margin-top: 0.5em;
+}
+
+.entry1, .entry2{
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    padding: 1em 0 0 0;
+}
+
+.entry1{
+    border-top-left-radius: 1em;
+}
+
+.entry2{
+    border-top-right-radius: 1em;
+}
+
+.entry1 ul, .entry2 ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.entry1 a, .entry2 a{
+    display: inline-block;
+    width: 10em;
+    padding: 1em 0.5em 0.5em 0.5em;
+    margin: 0.5em 0.5em 0 0.5em;
+    background-color: rgb(209, 209, 209);
+    border-radius: 1em 1em 0em 0;
+}
+
+.entry1 a:hover, .entry2 a:hover{
+    background-color: rgb(107, 220, 255);
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.news{
+    border-bottom: 1px solid rgb(128, 128, 128);
+    padding: 1em 0;
+}
+.news img{
+    float: left;
+    width: 7em;
+    border-radius: 1em;
+    margin-right: 1em;
+}
+.news h4{
+    margin-top: 0.3em;
+    font-weight: 550;
+    color: black;
+}
+
+.news p{
+    margin-top: 0.5em;
+}
+
+.news .links{
+    color: rgb(0, 119, 155);
+    font-weight: bold;
+}
+
+.news .sub{
+    color: green;
+    font-weight: bold;
+    display: inline;
+}
+
+.news .new-update-green{
+    font-weight: bold;
+    color: rgb(0, 224, 0);
+}
+
+.news .new-update-red{
+    font-weight: bold;
+    color: rgb(189, 0, 0);
+}
+
+footer{
+    background-color: rgb(129, 129, 129);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em;
+    align-content: flex-end;
+    color: white;
+}
+
+footer ul{
+    list-style-type: disc;
+    margin-left: 1.3em;
+    }
+
+footer li{
+    display: inline;
+    margin-right: 1em;
+}
+
+/* Hamburgur and Download icons */
+/* Friend and Topic boxes icons */

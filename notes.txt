@@ -1,0 +1,5 @@
+Things I couldn't do
+
+-Search and cross icons inside search bar
+-Profile picture icon
+-Downloads and Hamburgur icon on "Recent Searches"
