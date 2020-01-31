@@ -19,18 +19,30 @@ header{
     display: flex;
 }
 header h1{
-    font-size: 2.8em;
+    font-size: 3em;
+    margin-left: 0.5em;
     color: rgb(0, 134, 67);
     font-weight: lighter;
+}
+.header-right{
+    font-family: sans-serif;
 }
 header > div{
     flex-grow: 2;
     align-self: flex-end;
     padding-left: 3em;
 }
-header > p{
+header > div > p{
     text-align: right;
+    margin-right: 2em;
     align-self: flex-end;
+}
+
+.name{
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    font-size: 1.1em;
+    text-align: right;
 }
 
 header input{
