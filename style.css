@@ -1,61 +1,48 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
 
-ul{
+ul {
     list-style-type: none;
     padding-left: 0;
 }
-
 header{
-    padding: 1.5em 1em 1.5em 1em;
     background-color: rgb(107, 220, 255);
-    display: flex;
 }
-header h1{
+.header-container {
+    padding: 1em 0 1em 0;
+    display: flex;
+    width: 75%;
+    margin: auto;
+}
+
+header h1 {
     font-size: 3em;
-    margin-left: 0.5em;
     color: rgb(0, 134, 67);
     font-weight: lighter;
 }
-.header-right{
-    font-family: sans-serif;
-}
-header > div{
+.input-wrapper {
     flex-grow: 2;
     align-self: flex-end;
-    padding-left: 3em;
-}
-header > div > p{
-    text-align: right;
-    margin-right: 2em;
-    align-self: flex-end;
 }
 
-.name{
-    margin-bottom: 0.5em;
-    font-weight: 600;
-    font-size: 1.1em;
-    text-align: right;
-}
-
-header input{
-    /* Removes system level styling */
+header input {
     -webkit-appearance: none;
-    appearance: none;
-    width: 25em;
+    width: 250px;
     border-radius: 10px;
+    font-size: 0.78em;
+    align-self: flex-end;
+    margin: auto auto 5px 10px;
     background-color: rgba(227, 249, 255, 0.9);
-    height: 2em;
 }
 
-header button{
+header button {
     background-color: rgb(0, 81, 90);
     border-radius: 8px;
     color: white;
@@ -64,187 +51,225 @@ header button{
     width: 6em;
 }
 
+.header-right {
+    font-family: sans-serif;
+}
 
-nav{
+
+header>div>p {
+    text-align: right;
+    align-self: flex-end;
+}
+
+.name {
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    font-size: 1.1em;
+    text-align: right;
+}
+
+nav {
     background-color: rgb(240, 240, 240);
     padding: 1em 0;
     color: #4e4e4e;
 }
 
-nav ul{
+.nav-container{
+    width: 75%;
+    margin: auto;
+}
+
+nav ul {
     display: inline;
-    margin-left: 3em;
 }
 
-nav li{
+nav li {
     display: inline;
+    font-size: 12px;
 }
 
-nav li+li{
-    margin: 1em;
+nav li+li {
+    margin-left: 2em;
 }
 
-nav a:hover{
+nav a:hover {
     color: #000000
 }
 
-.right{
+.right {
     float: right;
-    margin-right: 2em;    
 }
+/* Done Till this */
 
-.main-body{
+.main-body {
     display: flex;
-    margin: 2em;
-    justify-content: space-between;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 75%;
+    margin: 2em auto;
+    font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Ubuntu', 'sans-serif';
 }
-
-.left-aside{
-    flex-basis: 20%;
+.left-aside {
     background-color: rgb(240, 240, 240);
+    flex: 1;
 }
 
-h3{
+h3 {
     color: white;
     background-color: rgb(107, 220, 255);
-    padding: 0.8em;
+    padding: 0.6em;
+    font-weight: normal;
 }
 
-.left-aside ul, .right-aside ul{
+.left-aside ul,
+.right-aside ul {
     padding: 0;
     display: flex;
     flex-direction: column;
+    font-size: 13px;
 }
 
-.left-aside a, .right-aside a{
+.left-aside a,
+.right-aside a {
     margin: 0;
     display: block;
-    padding: 0.9em;
+    padding: 0.7em;
 }
 
-.left-aside a:hover, .right-aside a:hover{
+.left-aside a:hover,
+.right-aside a:hover {
     background-color: white;
 }
 
-.right-aside{
-    flex-basis: 20%;
+.right-aside {
     background-color: rgb(240, 240, 240);
+    flex: 1;
 }
 
-section{
-    flex-basis: 55%;
+section {
     color: rgb(68, 68, 68);
+    flex: 3;
+    padding: 0 2em;
 }
 
-section h2{
-    font-size: 2em;
+section h2 {
+    font-size: 1.5em;
 }
 
-.entry-types{
-    display: flex;
+.entry-types {
+    display: grid;
+    grid-auto-flow: column;
     border-bottom: 3px solid rgb(107, 220, 255);
-    justify-content: space-between;
     margin-top: 0.5em;
+    justify-content: center;
+    align-content: space-around;
+    column-gap: 2px;
+    grid-template-columns: 50% 50%;
 }
 
-.entry1, .entry2{
+.entry1,
+.entry2 {
     background-color: rgb(241, 241, 241);
     text-align: center;
-    padding: 1em 0 0 0;
+    padding: 0.5em 0 0 0;
 }
 
-.entry1{
+.entry1 {
     border-top-left-radius: 1em;
 }
 
-.entry2{
+.entry2 {
     border-top-right-radius: 1em;
 }
 
-.entry1 ul, .entry2 ul{
+.entry1 ul,
+.entry2 ul {
     display: flex;
+    font-size: 14px;
     justify-content: space-around;
 }
 
-.entry1 a, .entry2 a{
+.entry1 a,
+.entry2 a {
     display: inline-block;
-    width: 10em;
-    padding: 1em 0.5em 0.5em 0.5em;
-    margin: 0.5em 0.5em 0 0.5em;
+    padding: 1em 0.5em  0.5em;
+    width: 120px;
+    margin: 0.5em 0 0 0;
     background-color: rgb(209, 209, 209);
-    border-radius: 1em 1em 0em 0;
+    border-radius: 1em 1em 0 0;
 }
 
-.entry1 a:hover, .entry2 a:hover{
+.entry1 a:hover,
+.entry2 a:hover {
     background-color: rgb(107, 220, 255);
 }
 
-article{
+article {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-size: 13px;
 }
 
-.news{
+.news {
     border-bottom: 1px solid rgb(128, 128, 128);
-    padding: 1em 0;
+    padding: 0.5em 0;
 }
-.news img{
+
+.news img {
     float: left;
     width: 7em;
     border-radius: 1em;
     margin-right: 1em;
 }
-.news h4{
+
+.news h4 {
     margin-top: 0.3em;
-    font-weight: 550;
+    font-weight: bold;
     color: black;
+    font-size: 14px;
 }
 
-.news p{
+.news p {
     margin-top: 0.5em;
 }
 
-.news .links{
+.news .links {
     color: rgb(0, 119, 155);
     font-weight: bold;
 }
 
-.news .sub{
+.news .sub {
     color: green;
     font-weight: bold;
     display: inline;
 }
 
-.news .new-update-green{
+.news .new-update-green {
     font-weight: bold;
     color: rgb(0, 224, 0);
 }
 
-.news .new-update-red{
+.news .new-update-red {
     font-weight: bold;
     color: rgb(189, 0, 0);
 }
 
-footer{
+footer {
     background-color: rgb(129, 129, 129);
-    display: flex;
     justify-content: space-between;
-    padding: 1.5em;
-    align-content: flex-end;
     color: white;
+    font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Ubuntu', 'sans-serif';
+}
+.footer-wrapper{
+    padding: 1.5em 0;
+    width: 75%;
+    display: flex;
+    font-size: 14px;
+    margin: auto;
+    justify-content: space-between;
 }
 
-footer ul{
-    list-style-type: disc;
-    margin-left: 1.3em;
-    }
 
-footer li{
+footer li {
     display: inline;
-    margin-right: 1em;
+    margin-right: 2em;
 }
-
-/* Hamburgur and Download icons */
-/* Friend and Topic boxes icons */
