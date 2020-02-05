@@ -210,10 +210,10 @@ article {
 .news {
     border-bottom: 1px solid rgb(128, 128, 128);
     padding: 0.5em 0;
+    display: flex;
 }
 
 .news img {
-    float: left;
     width: 7em;
     border-radius: 1em;
     margin-right: 1em;
@@ -305,7 +305,7 @@ footer li {
         display: none;
     }
     nav .left{
-        width: 100%;
+        width: 95%;
         margin: auto;
         
     }
@@ -313,7 +313,8 @@ footer li {
         padding: 0;
     }
     .news img{
-        width: 6em;
+        width: 4em;
+        height: 4em;
     }
 
     .right-aside{
