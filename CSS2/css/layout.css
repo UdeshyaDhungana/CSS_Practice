@@ -1,0 +1,201 @@
+.main-header{
+    min-width: 1002px;
+}
+.content-wrapper{
+    width: 950px;
+    margin: 0 auto;
+}
+
+.header-content-wrapper{
+    padding: 15px 0 8px  0;
+}
+
+.logo-container{
+    float: left;
+}
+
+.search-wrapper{
+    width: 385px;
+    display: inline-block;
+    padding: 20px
+}
+
+.search-container{
+    float: left;
+    width: 280px;
+    height: 25px;
+}
+
+.search-button{
+    padding: 7px;
+}
+
+.search-container input{
+    margin-left: 10px;
+    margin-top: 6px;
+    border: none;
+    width: 245px;
+    font-size: 0.8em;
+}
+
+
+.user-info{
+    float: right;
+    padding: 5px 0;
+}
+
+.name{
+    font-size: 1em;
+    margin-top: 8px;
+    padding-right: 3px;
+}
+
+.user-list-items{
+    font-size: 0.8em;
+    display: inline;
+    margin-right: 3px;
+}
+
+nav{
+    padding: 15px;
+    margin-bottom: 25px;
+}
+.searches1, .searches2{
+    padding: 10px;
+}
+.page-nav{
+    float: left;
+}
+.page-nav li{
+    display: inline;
+    margin-right: 35px;
+}
+.user-nav{
+    float: right;
+}
+.user-nav li{
+    display: inline;
+    margin-left: 25px;
+}
+.invites{
+    padding-left: 20px;
+}
+.requests{
+    padding-left: 25px;
+}
+
+.left-sidebar{
+    width: 180px;
+    float: left;
+    margin-right: 10px;
+    height: 615px;
+}
+
+.left-sidebar li{
+    padding: 15px 12px; 
+}
+
+.left-sidebar li > .left{
+    width: 140px;
+    display: inline-block;
+}
+
+.left-sidebar img{
+    float: right;
+}
+
+.main-body{
+    margin-left: 190px ;
+}
+.main-body h2{
+    margin-bottom: 5px; 
+}
+
+.main-body h3{
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+
+.entry-type li{
+    display: inline-block;
+    padding: 0;
+}
+
+.entry-type a{
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    width: 115px;
+    margin: auto 8px;
+}
+
+.all-entries, .subscribed{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+}
+
+.all-entries{
+    float: left;
+}
+
+.subscribed{
+    float: right;
+}
+
+.story{
+    padding: 15px 10px 15px 0;
+}
+
+.details{
+    padding-left: 15%;
+}
+.story img{
+    float: left;
+}
+
+.story h4{
+    margin-bottom: 6px;
+}
+
+.story p{
+    margin-bottom: 4px;;
+}
+
+.middle{
+    float: left;
+    margin: auto 15px;
+    width: 540px;
+}
+.right-sidebar{
+    float: right;
+    height: 615px;
+    width: 175px;
+}
+
+.right-sidebar h3{
+    padding: 10px;
+    margin-top: 0;
+}
+
+.right-sidebar a{
+    padding: 13px;
+    display: block;
+}
+
+
+footer{
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer li,footer ul{
+    display: inline;
+}
+
+footer li{
+    margin-right: 20px;
+}
+
+footer span{
+    float: right;
+}

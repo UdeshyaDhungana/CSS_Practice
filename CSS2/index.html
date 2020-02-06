@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TuTangle</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/layout.css">
+</head>
+
+<body>
+    <header>
+        <div class="main-header">
+            <div class="content-wrapper header-content-wrapper clearfix">
+                <div class="logo-container">
+                    <img src="./images/logo.png" alt="logo">
+                </div>
+                <div class="search-wrapper">
+                    <div class="search-container">
+                        <input type="search" name="search" id="search" placeholder="Search by Term, Member or Entry Title">
+                        <span><a href="#">&#128269;</a></span>
+                    </div>
+                    <a href="#" class="search-button">SEARCH</a>
+                </div>
+                <div class="user-info">
+                    <div class="name">Joe Burros</div>
+                    <ul class="options">
+                        <li class="user-list-items"><a href="#">Home</a> |</li>
+                        <li class="user-list-items"><a href="#">Settings</a> |</li>
+                        <li class="user-list-items"><a href="#">Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <nav>
+            <div class="nav-content-wrapper content-wrapper clearfix">
+                <ul class="page-nav">
+                    <li><a href="#">Create New Entry</a></li>
+                    <li><a href="#">My Topic Boxes</a></li>
+                    <li><a href="#">Friends</a></li>
+                    <li><a href="#">Invite New Friends</a></li>
+                </ul>
+
+                <ul class="user-nav">
+                    <li class="invites">Topic Boxes Invite - <span>1</span></li>
+                    <li class="requests disabled">Friend Requests - <span>0</span></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="content-wrapper clearfix">
+        <div class="left-sidebar">
+            <div class="searches1">Recent Searches</div>
+            <ul>
+                <li><a href="#" class='left'>Nick Cave and the Bad seeds</a>
+                    <a href="#"><img src="./images/recent-option-image.png" alt="downloads"></a>
+                </li>
+                <li><a href="#" class="left">African Animals</a>
+                    <a href="#"><img src="./images/recent-option-image.png" alt="downloads"></a>
+                </li>
+            </ul>
+
+            <div class="searches2">Recent Searches</div>
+            <ul>
+                <li><a href="#" class="left">Different versions of the Tristan and Isolde Prelude </a>
+                    <a href="#"><img src="./images/burger-menu.png" alt="burger menu "></a>
+                </li>
+                <li><a href="#" class="left">Music</a><a href="#"><img src="./images/burger-menu.png"
+                            alt="burger menu "></a></li>
+                <li><a href="#" class="left">Guitar</a>
+                    <a href="#"><img src="./images/burger-menu.png" alt="burger menu "></a>
+                </li>
+                <li><a href="#" class="left">Bob Cohen</a>
+                    <a href="#"><img src="./images/burger-menu.png" alt="burger menu "></a>
+                </li>
+                <li><a href="#" class="left">Mark Schnack</a>
+                    <a href="#"><img src="./images/burger-menu.png" alt="burger menu "></a>
+                </li>
+                <li><a href="#" class="left">Jefferson Dickey</a>
+                    <a href="#"><img src="./images/burger-menu.png" alt="burger menu "></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main-body clearfix">
+            <div class="middle">
+                <h2>Entries</h2>
+                <div class="entry-type clearfix">
+                    <div class="all-entries">
+                        <h3>All Entries</h3>
+                        <ul>
+                            <li><a href="#">All Members</a></li>
+                            <li><a href="#">Friends</a></li>
+                        </ul>
+                    </div>
+                    <div class="subscribed">
+                        <h3>Subscribed</h3>
+                        <ul>
+                            <li><a href="#">New Entry</a></li>
+                            <li><a href="#">New Comment</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Stories -->
+                <div class="stories-wrapper">
+                    <div class="story clearfix">
+                        <img src="./images/user1.png" alt="user 1">
+                        <div class="details">
+                            <h4><a>Day for Night by Francois Truffaut, a ground breaking film</a></h4>
+                            <div class="info">
+                                <p>by <a href="#" class="author">Alan Coe</a> |
+                                    <time datetime="2012-02-10">February 10, 2012</time> |
+                                    <a href="#" class="sub">Subscribed</a>
+                                </p>
+                                <p>From topic box: <a href="#" class="topic">My Favorite Movies</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story clearfix">
+                        <img src="./images/user2.png" alt="user 2">
+                        <div class="details">
+                            <h4><a>Blade Runner, The Director's Cut</a></h4>
+                            <div class="info">
+                                <p>by <a href="#" class="author">Mary Pilot</a> |
+                                    <time datetime="2012-02-10">February 8, 2012</time>
+                                </p>
+                                <p>From topic box: <a href="#" class="topic">My Favorite Movies</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story clearfix">
+                        <img src="./images/user3.png" alt="user 3">
+                        <div class="details">
+                            <h4><a>Amazing Cafe in Montreal</a></h4>
+                            <div class="info">
+                                <p>by <a href="#" class="author">Alan Coe</a> |
+                                    <time datetime="2012-02-10">February 10, 2012</time> |
+                                    <a href="#" class="sub">Subscribed</a>
+                                </p>
+                                <p>From topic box: <a href="#" class="topic">Lunch Breaks</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story clearfix">
+                        <img src="./images/user4.png" alt="user 4">
+                        <div class="details">
+                            <h4><a>You're about to get drafted in the Military</a></h4>
+                            <div class="info">
+                                <p>by <a href="#" class="author">Alan Coe</a> |
+                                    <time datetime="2012-02-10">February 14, 2012</time> |
+                                    <a href="#" class="sub">Subscribed</a>
+                                </p>
+                                <p>From topic box: <a href="#" class="topic">US Army</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story clearfix">
+                        <img src="./images/user5.png" alt="user 5">
+                        <div class="details">
+                            <h4><a>Pimples affecting teens and Youths of America</a></h4>
+                            <div class="info">
+                                <p>by <a href="#" class="author">Alan Coe</a> |
+                                    <time datetime="2012-02-10">February 10, 2012</time> |
+                                    <a href="#" class="sub">Subscribed</a>
+                                </p>
+                                <p>From topic box: <a href="#" class="topic">Health and Lifestyle </a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-sidebar">
+                <h3>Video Tutorial</h3>
+                <ul>
+                    <li><a href="#">Overview of Tu Tangle</a></li>
+                    <li><a href="#">Previous and saved search</a></li>
+                    <li><a href="#">Searching the site</a></li>
+                    <li><a href="#">The topic box page</a></li>
+                    <li><a href="#">Creating a topic box</a></li>
+                    <li><a href="#">View topic box entries</a></li>
+
+                    <li><a href="#">Creating an Entry</a></li>
+                    <li><a href="#">Privacy Settings</a></li>
+                    <li><a href="#">Co-Authoring</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-wrapper content-wrapper">
+            <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Feedback</a></li>
+            </ul>
+            <span>&copy TuTangle 2012</span>
+        </div>
+    </footer>
+</body>
+
+</html>

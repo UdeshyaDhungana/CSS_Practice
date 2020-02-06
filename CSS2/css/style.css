@@ -1,0 +1,151 @@
+.disabled {
+    pointer-events: none;
+    cursor: default;
+    color: gray;
+}
+
+.main-header {
+    background: #7dd9e8;
+}
+
+.requests {
+    background-image: url("../images/friend-request-image.png");
+    background-repeat: no-repeat;
+}
+
+.invites {
+    background-image: url("../images/topic-box-image.png");
+    background-repeat: no-repeat;
+}
+
+.search-container {
+    background-image: url("../images/search-bar.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.search-button {
+    background-image: url("../images/search-button.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    color: white;
+    font-size: 0.7em;
+}
+
+.search-container input {
+    background-color: transparent;
+    border: none;
+}
+
+.user-info {
+    text-align: right;
+    font-weight: bold;
+}
+
+.name {
+    font-size: 1em;
+}
+
+nav {
+    font-size: 0.8em;
+    background-color: rgb(240, 240, 240);
+}
+
+.left-sidebar {
+    background-color: rgb(240, 240, 240);
+}
+
+.left-sidebar>div {
+    font-size: 0.9em;
+}
+
+.left-sidebar li {
+    font-size: 11px;
+}
+
+.left-sidebar li:hover {
+    background-color: white;
+}
+
+.searches1,
+.searches2 {
+    background-color: #2fc1da;
+    color: white;
+}
+
+.main-body h2 {
+    font-size: 26px;
+    font-weight: lighter;
+}
+
+.entry-type ul {
+    font-size: 0.8em;
+}
+
+.info {
+    font-size: 14px;
+}
+
+.author,
+.topic {
+    color: #2fc1da;
+}
+
+.sub {
+    color: green;
+}
+
+.main-body h3 {
+    font-weight: normal;
+}
+
+.entry-type {
+    background-image: url("../images/main-back-image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-bottom: 2px solid #2fc1da;
+}
+
+.entry-type a {
+    background-image: url("../images/inactive-body-tab.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.all-entries li:first-child a:first-child {
+    background-image: url("../images/active-body-tab.png");
+    color: white;
+}
+
+.story {
+    border-bottom: 1px solid black;
+}
+
+.right-sidebar {
+    background-color: rgb(240, 240, 240);
+}
+
+footer {
+    background-color: gray;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.right-sidebar h3 {
+    background-color: #2fc1da;
+    color: white;
+}
+
+.right-sidebar a:hover {
+    background-color: white;
+}
+
+footer a,
+footer {
+    color: white;
+}
+
+.right-sidebar li {
+    font-size: 11px;
+}
