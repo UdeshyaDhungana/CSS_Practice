@@ -421,6 +421,11 @@ header .material-icons {
     padding: 0 20px;
 }
 
+.quote .img-wrapper {
+    float: left;
+    margin-right: 20px;
+}
+
 .quote .material-icons {
     color: rgb(149, 225, 211);
     font-size: 108px;
@@ -568,3 +573,124 @@ header .material-icons {
 .logos a:hover {
     scale: 1.10;
 }
+
+/* What we do */
+
+.what-we-do {
+    padding-top: 100px;
+}
+
+.what-we-do .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 0;
+    margin-bottom: 80px;
+}
+
+.what-we-do .gallery .img-wrapper {
+    position: relative;
+}
+
+.what-we-do .img-wrapper img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.what-we-do .img-wrapper:nth-child(3) {
+    grid-row: 1 / span 2;
+    grid-column-start: 3;
+}
+
+.what-we-do .info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    color: white;
+}
+
+.what-we-do .info i {
+    font-size: 30px;
+}
+
+.what-we-do .info h3 {
+    margin: 3px auto;
+    font-weight: lighter;
+}
+
+.what-we-do .info p {
+    font-style: oblique;
+    font-size: 12px;
+}
+
+.what-we-do .info:hover {
+    opacity: 1;
+    cursor: pointer;
+    background: linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9))
+}
+
+.work-review .container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 9fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.work-review a{
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(185, 185, 185);
+}
+.work-review .img-wrapper {
+    /* width: 200px; */
+    height: 200px;
+    padding: 5px;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 50%;
+}
+
+.work-review img {
+    display: block;
+    border-radius: 50%;
+}
+
+.work-review .quotation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.quotation blockquote {
+    line-height: 1.4em;
+    font-style: oblique;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.quotation .author {
+    font-family: "Kaushan Script", cursive;
+    /* margin-left: 50px; */
+}
+
+.quotation .author::before {
+    content: "";
+    height: 2px;
+    margin-right: 5px;
+    position: relative;
+    bottom: 4px;
+    width: 50px;
+    display: inline-block;
+    background: #f38181
+}
+
