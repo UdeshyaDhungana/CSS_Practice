@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MOGO</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://cdn.materialdesignicons.com/4.5.95/css/materialdesignicons.min.css" rel="stylesheet">
@@ -18,21 +18,21 @@
 <body>
     <header>
         <div class="top container">
-            <h1><a href="#">Mogo</a></h1>
+            <h1 class="large"><a href="#">Mogo</a></h1>
             <nav class="nav1">
-                <ul>
+                <ul class="extra-small">
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">ABOUT</a></li>
                     <li><a href="#">SERVICE</a></li>
                     <li><a href="#">OUR TEAM</a></li>
                     <li><a href="#">WORK</a></li>
                     <li><a href="#">BLOG</a></li>
-                    <li><a href="#"><i class="material-icons">shopping_cart</i></a></li>
-                    <li><a href="#"><i class="material-icons">search</i></a></li>
+                    <li><a href="#"><i class="mdi mdi-cart"></i></a></li>
+                    <li><a href="#"><i class="mdi mdi-magnify"></i></a></li>
                 </ul>
             </nav>
         </div>
-        <div class="hero container">
+        <div class="hero center container">
             <span class="sub-heading1">Creative Template</span>
             <h2>WELCOME<br>TO MOGO</h2>
             <hr class="orange-hr">
@@ -40,15 +40,15 @@
         </div>
         <nav class="nav2 container">
             <ol>
-                <li><a href="#"><span class="number">01</span>INTRO</a></li>
-                <li><a href="#"><span class="number">02</span>WORK</a></li>
-                <li><a href="#"><span class="number">03</span>ABOUT</a></li>
-                <li><a href="#"><span class="number">04</span>CONTACTS</a></li>
+                <li><a href="#"><span class="number medium">01</span>INTRO</a></li>
+                <li><a href="#"><span class="number medium">02</span>WORK</a></li>
+                <li><a href="#"><span class="number medium">03</span>ABOUT</a></li>
+                <li><a href="#"><span class="number medium">04</span>CONTACTS</a></li>
             </ol>
         </nav>
     </header>
 
-    <section class="story">
+    <section class="story top-padded-section">
         <div class="main-story container">
             <h3 class="sub-head">What we do</h3>
             <h3 class="main-head">STORY ABOUT US</h3>
@@ -63,25 +63,31 @@
                 consequat.</p>
             <div class="img-container">
                 <div class="img-wrapper">
-                    <a href="#">
-                        <i class="material-icons">people</i><span>SUPER TEAM</span>
+                    <a href="#" class="white bold gradient-back">
+                        <i class="mdi mdi-account-multiple extra-large"></i>
+                        <p>SUPER TEAM</p>
                     </a>
+                    <img src="./images/story/img-1.jpg" alt="coffee table">
                 </div>
                 <div class="img-wrapper">
-                    <a href="#">
-                        <i class="material-icons">center_focus_weak</i><span>CREATIVITY</span>
+                    <a href="#" class="white bold gradient-back">
+                        <i class="mdi mdi-camera extra-large"></i>
+                        <p>CREATIVITY</p>
                     </a>
+                    <img src="./images/story/img-2.jpg" alt="flower pot">
                 </div>
                 <div class="img-wrapper">
-                    <a href="#">
-                        <i class="material-icons">people</i><span>DIGITAL</span>
+                    <a href="#" class="white bold gradient-back">
+                        <i class="mdi mdi-desktop-tower extra-large"></i>
+                        <p>DIGITAL</p>
                     </a>
+                    <img src="./images/story/img-3.jpg" alt="laptop">
                 </div>
             </div>
         </div>
         <div class="counting">
             <div class="container">
-                <ul>
+                <ul class="center">
                     <li>
                         <h4>42</h4>
                         <p>WEB DESIGN PROJECTS</p>
@@ -107,13 +113,13 @@
         </div>
     </section>
 
-    <section class="work-with">
+    <section class="work-with top-padded-section">
         <h3 class="sub-head">We work with</h3>
         <h3 class="main-head">AMAZING SERVICES</h3>
         <hr class="orange-hr">
         <div class="works container">
             <div class="work">
-                <i class="material-icons">camera</i>
+                <i class="mdi mdi-camera"></i>
                 <div>
                     <h4>PHOTOGRAPHY</h4>
                     <p>
@@ -124,7 +130,7 @@
                 </div>
             </div>
             <div class="work">
-                <i class="material-icons">language</i>
+                <i class="mdi mdi-web"></i>
                 <div>
                     <h4>WEB DESIGN</h4>
                     <p>
@@ -134,7 +140,7 @@
                 </div>
             </div>
             <div class="work">
-                <i class="material-icons">brush</i>
+                <i class="mdi mdi-brush"></i>
                 <div>
                     <h4>CREATIVITY</h4>
                     <p>
@@ -144,11 +150,11 @@
                     </p>
                 </div>
             </div>
-            <div class="line">
+            <div class="work-separator-line">
                 <hr>
             </div>
             <div class="work">
-                <i class="material-icons">search</i>
+                <i class="mdi mdi-magnify"></i>
                 <div>
                     <h4>SEO</h4>
                     <p>
@@ -160,7 +166,7 @@
                 </div>
             </div>
             <div class="work">
-                <i class="material-icons">desktop_mac</i>
+                <i class="mdi mdi-desktop-mac"></i>
                 <div>
                     <h4>HTML/CSS</h4>
                     <p>
@@ -170,7 +176,7 @@
                 </div>
             </div>
             <div class="work">
-                <i class="material-icons">web</i>
+                <i class="mdi mdi-laptop"></i>
                 <div>
                     <h4>DIGITAL</h4>
                     <p>
