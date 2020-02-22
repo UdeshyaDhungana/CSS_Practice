@@ -7,52 +7,54 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MOGO</title>
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://cdn.materialdesignicons.com/4.5.95/css/materialdesignicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="layout.css">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 
 <body>
-    <header>
-        <div class="top container">
-            <h1 class="large"><a href="#">Mogo</a></h1>
-            <nav class="nav1">
-                <ul class="extra-small">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">SERVICE</a></li>
-                    <li><a href="#">OUR TEAM</a></li>
-                    <li><a href="#">WORK</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#"><i class="mdi mdi-cart"></i></a></li>
-                    <li><a href="#"><i class="mdi mdi-magnify"></i></a></li>
-                </ul>
+    <header class="white">
+        <div class="container">
+            <div class="nav-1">
+                <h1><a href="#" class="extra-large">Mogo</a></h1>
+                <nav>
+                    <ul class="extra-small">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">SERVICE</a></li>
+                        <li><a href="#">OUR TEAM</a></li>
+                        <li><a href="#">WORK</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#" class="medium"><i class="mdi mdi-cart"></i></a></li>
+                        <li><a href="#" class="medium"><i class="mdi mdi-magnify"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="hero center">
+                <h2>Creative Template</h2>
+                <h2>WELCOME<br>TO MOGO</h2>
+                <hr>
+                <a href="#">LEARN MORE</a>
+            </div>
+            <nav class="nav-2">
+                <ol>
+                    <li><a href="#"><span class="large bold">01</span>INTRO</a></li>
+                    <li><a href="#"><span class="large bold">02</span>WORK</a></li>
+                    <li><a href="#"><span class="large bold">03</span>ABOUT</a></li>
+                    <li><a href="#"><span class="large bold">04</span>CONTACTS</a></li>
+                </ol>
             </nav>
         </div>
-        <div class="hero center container">
-            <span class="sub-heading1">Creative Template</span>
-            <h2>WELCOME<br>TO MOGO</h2>
-            <hr class="orange-hr">
-            <a href="#" class="sub-heading2">LEARN MORE</a>
-        </div>
-        <nav class="nav2 container">
-            <ol>
-                <li><a href="#"><span class="number medium">01</span>INTRO</a></li>
-                <li><a href="#"><span class="number medium">02</span>WORK</a></li>
-                <li><a href="#"><span class="number medium">03</span>ABOUT</a></li>
-                <li><a href="#"><span class="number medium">04</span>CONTACTS</a></li>
-            </ol>
-        </nav>
     </header>
 
-    <section class="story top-padded-section">
-        <div class="main-story container">
+    <section class="story top-spaced-section">
+        <div class="container">
             <h3 class="sub-head">What we do</h3>
-            <h3 class="main-head">STORY ABOUT US</h3>
-            <hr class="orange-hr">
+            <h3 class="main-head orange-hr-down">STORY ABOUT US</h3>
             <p class="describe">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                 incididunt ut labore
                 et
@@ -61,33 +63,39 @@
                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                 commodo
                 consequat.</p>
-            <div class="img-container">
-                <div class="img-wrapper">
-                    <a href="#" class="white bold gradient-back">
-                        <i class="mdi mdi-account-multiple extra-large"></i>
-                        <p>SUPER TEAM</p>
-                    </a>
+            <div class="animated-img-container">
+                <div class="img-wrapper animated-img-wrapper">
+                    <div class="overlay">
+                        <a href="#">
+                            <i class="mdi mdi-crown"></i>
+                            <p class="small bold">SUPER TEAM</p>
+                        </a>
+                    </div>
                     <img src="./images/story/img-1.jpg" alt="coffee table">
                 </div>
-                <div class="img-wrapper">
-                    <a href="#" class="white bold gradient-back">
-                        <i class="mdi mdi-camera extra-large"></i>
-                        <p>CREATIVITY</p>
-                    </a>
+                <div class="img-wrapper animated-img-wrapper">
+                    <div class="overlay">
+                        <a href="#">
+                            <i class="mdi mdi-pen"></i>
+                            <p class="small bold">CREATIVITY</p>
+                        </a>
+                    </div>
                     <img src="./images/story/img-2.jpg" alt="flower pot">
                 </div>
-                <div class="img-wrapper">
-                    <a href="#" class="white bold gradient-back">
-                        <i class="mdi mdi-desktop-tower extra-large"></i>
-                        <p>DIGITAL</p>
-                    </a>
+                <div class="img-wrapper animated-img-wrapper">
+                    <div class="overlay">
+                        <a href="#">
+                            <i class="mdi mdi-laptop"></i>
+                            <p class="small bold">DIGITAL</p>
+                        </a>
+                    </div>
                     <img src="./images/story/img-3.jpg" alt="laptop">
                 </div>
             </div>
         </div>
-        <div class="counting">
+        <div class="counter top-spaced-section">
             <div class="container">
-                <ul class="center">
+                <ul>
                     <li>
                         <h4>42</h4>
                         <p>WEB DESIGN PROJECTS</p>
@@ -113,111 +121,118 @@
         </div>
     </section>
 
-    <section class="work-with top-padded-section">
-        <h3 class="sub-head">We work with</h3>
-        <h3 class="main-head">AMAZING SERVICES</h3>
-        <hr class="orange-hr">
-        <div class="works container">
-            <div class="work">
-                <i class="mdi mdi-camera"></i>
-                <div>
-                    <h4>PHOTOGRAPHY</h4>
-                    <p>
-                        Photography is the science, art and practice of creating durable images by recording light or
-                        other electromagnetic
-                        radiation
-                    </p>
+    <section class="work-with top-spaced-section">
+        <div class="container">
+            <h3 class="sub-head">We work with</h3>
+            <h3 class="main-head orange-hr-down">AMAZING SERVICES</h3>
+            <div class="works">
+                <div class="work">
+                    <i class="bluish extra-large mdi mdi-camera"></i>
+                    <div>
+                        <h4>PHOTOGRAPHY</h4>
+                        <p class="extra-small">
+                            Photography is the science, art and practice of creating durable images by recording light
+                            or
+                            other electromagnetic
+                            radiation
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <i class=" bluish extra-large mdi mdi-web"></i>
+                    <div>
+                        <h4>WEB DESIGN</h4>
+                        <p class="extra-small">
+                            Web design encompasses many different skills and disciplines in the production and
+                            maintenance
+                            of websites.
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <i class="bluish extra-large mdi mdi-brush"></i>
+                    <div>
+                        <h4>CREATIVITY</h4>
+                        <p class="extra-small">
+                            Creativity is a phenomenon whereby something new and somehow valuable is formed. The created
+                            item may be intangible or a
+                            physical object.
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <i class="bluish extra-large mdi mdi-magnify"></i>
+                    <div>
+                        <h4>SEO</h4>
+                        <p class="extra-small">
+                            Search engine optimization (SEO) is the process of affecting the visibility of a website or
+                            a
+                            web
+                            page in a web search
+                            engine's unpaid results.
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <i class="bluish extra-large mdi mdi-desktop-mac"></i>
+                    <div>
+                        <h4>HTML/CSS</h4>
+                        <p class="extra-small">
+                            HyperText Markup Language, commonly abbreviated as HTML, is the standard markup language
+                            used to
+                            create web pages.
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <i class="bluish extra-large mdi mdi-laptop"></i>
+                    <div>
+                        <h4>DIGITAL</h4>
+                        <p class="extra-small">
+                            With digital signals, system noise, provided it is not too great, will not change the
+                            quantification whereas with
+                            signals handled using analog processing.
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="work">
-                <i class="mdi mdi-web"></i>
-                <div>
-                    <h4>WEB DESIGN</h4>
-                    <p>
-                        Web design encompasses many different skills and disciplines in the production and maintenance
-                        of websites.
-                    </p>
-                </div>
-            </div>
-            <div class="work">
-                <i class="mdi mdi-brush"></i>
-                <div>
-                    <h4>CREATIVITY</h4>
-                    <p>
-                        Creativity is a phenomenon whereby something new and somehow valuable is formed. The created
-                        item may be intangible or a
-                        physical object.
-                    </p>
-                </div>
-            </div>
-            <div class="work-separator-line">
-                <hr>
-            </div>
-            <div class="work">
-                <i class="mdi mdi-magnify"></i>
-                <div>
-                    <h4>SEO</h4>
-                    <p>
-                        Search engine optimization (SEO) is the process of affecting the visibility of a website or a
-                        web
-                        page in a web search
-                        engine's unpaid results.
-                    </p>
-                </div>
-            </div>
-            <div class="work">
-                <i class="mdi mdi-desktop-mac"></i>
-                <div>
-                    <h4>HTML/CSS</h4>
-                    <p>
-                        HyperText Markup Language, commonly abbreviated as HTML, is the standard markup language used to
-                        create web pages.
-                    </p>
-                </div>
-            </div>
-            <div class="work">
-                <i class="mdi mdi-laptop"></i>
-                <div>
-                    <h4>DIGITAL</h4>
-                    <p>
-                        With digital signals, system noise, provided it is not too great, will not change the
-                        quantification whereas with
-                        signals handled using analog processing.
-                    </p>
-                </div>
-            </div>
+        </div>
     </section>
-    <section class="for-all-dev">
-        <h3 class="sub-head">For all devices</h3>
-        <h3 class="main-head">UNIQUE DESIGN</h3>
-        <hr class="orange-hr">
 
-        <div class="devices">
+    <section class="devices top-spaced-section">
+        <h3 class="sub-head">For all devices</h3>
+        <h3 class="main-head orange-hr-down">UNIQUE DESIGN</h3>
+        <div>
             <img src="./images/devices/tablet.png" alt="tablet" id="tablet">
             <img src="./images/devices/phone.png" alt="phone" id="phone">
         </div>
     </section>
-    <section class="what-we-do">
-        <div class="main-we-do container">
+
+    <section class="service">
+        <div class="container">
             <h3 class="sub-head">Service</h3>
-            <h3 class="main-head">WHAT WE DO</h3>
-            <hr class="orange-hr">
+            <h3 class="main-head orange-hr-down">WHAT WE DO</h3>
             <p class="describe">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et
                 dolore magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo
                 consequat.
             </p>
-            <div class="photo-and-description">
-                <img src="./images/services.jpg" alt="man-doing-sth-idk">
-                <div class="service-description">
+            <div class="grid-style-info">
+                <div class="img-wrapper">
+                    <img src="./images/services.jpg" alt="man-doing-sth-idk">
+                </div>
+                <div class="accordion">
                     <div class="scrolls">
                         <h3>
-                            <i class="material-icons">camera_alt</i>
-                            <span>PHOTOGRAPHY</span>
+                            <i class="material-icons bluish">camera_alt</i>
+                            <span class="light">PHOTOGRAPHY</span>
                             <i class="material-icons down">keyboard_arrow_down</i>
                         </h3>
-                        <div class="p-container">
+                        <div>
                             <p>
                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
                                 squid. 3 wolf moon officia
@@ -253,11 +268,11 @@
 
                     <div class="scrolls">
                         <h3>
-                            <i class="material-icons">create</i>
-                            <span>CREATIVITY</span>
+                            <i class="material-icons bluish">create</i>
+                            <span class="light">CREATIVITY</span>
                             <i class="material-icons down">keyboard_arrow_down</i>
                         </h3>
-                        <div class="p-container">
+                        <div>
                             <p>
                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
                                 squid. 3 wolf moon officia
@@ -286,11 +301,11 @@
 
                     <div class="scrolls">
                         <h3>
-                            <i class="material-icons">laptop</i>
-                            <span>WEB DESIGN</span>
+                            <i class="material-icons bluish">laptop</i>
+                            <span class="light">WEB DESIGN</span>
                             <i class="material-icons down">keyboard_arrow_down</i>
                         </h3>
-                        <div class="p-container">
+                        <div>
                             <p>
                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
                                 squid. 3 wolf moon officia
@@ -319,90 +334,85 @@
                 </div>
             </div>
         </div>
-        <div class="service-review">
+        <div class="quote">
             <div class="container">
-                <div class="service-wrapper">
-                    <a href="#"><i class="material-icons">chevron_left</i></a>
-                    <div class="quote">
-                        <i class="material-icons">chat_bubble_outline</i>
-                        <blockquote>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut
-                            labore et dolore magna
-                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-                        </blockquote>
-                        <h4 class="author">
-                            Jon Doe
-                        </h4>
-                    </div>
-                    <a href="#"><i class="material-icons">chevron_right</i></a>
+                <a href="#" class="mdi chevron mdi-chevron-left extra-large"></a>
+                <a href="#" class="mdi logo mdi-comment-quote-outline bluish"></a>
+                <div>
+                    <blockquote class="medium">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                    </blockquote>
+                    <h3 class="author orange-hr-before">
+                        Jon Doe
+                    </h3>
                 </div>
+                <a href="#" class="mdi chevron mdi-chevron-right extra-large"></a>
             </div>
-        </div>
         </div>
     </section>
 
-    <section class="who-we-are">
-        <div class="our-team">
-            <div class="container">
+    <section class="team top-spaced-section">
+        <div class="container">
+            <div class="members">
                 <h3 class="sub-head">Who we are</h3>
-                <h3 class="main-head">MEET OUR TEAM</h3>
-                <hr class="orange-hr">
+                <h3 class="main-head orange-hr-down">MEET OUR TEAM</h3>
                 <p class="describe">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                     commodo consequat.
                 </p>
-
-                <div class="img-container">
-                    <div class="img-wrapper">
-                        <div class="main-picture">
-                            <a href="#"><span class="mdi mdi-facebook"></span></a>
-                            <a href="#"><span class="mdi mdi-twitter"></span></a>
-                            <a href="#"><span class="mdi mdi-pinterest"></span></a>
-                            <a href="#"><span class="mdi mdi-instagram"></span></a>
+                <div class="animated-img-container">
+                    <div class="img-wrapper animated-img-wrapper">
+                        <div class="overlay">
+                            <a href="#" class="mdi mdi-facebook"></a>
+                            <a href="#" class="mdi mdi-twitter"></a>
+                            <a href="#" class="mdi mdi-pinterest"></a>
+                            <a href="#" class="mdi mdi-instagram"></a>
                         </div>
-                        <h3>fuck</h3>
+                        <img src="./images/team/matthew-dix.png" alt="coffee table">
                     </div>
-
-                    <div class="img-wrapper">
-                        <div class="main-picture">
-                            <a href="#"><span class="mdi mdi-facebook"></span></a>
-                            <a href="#"><span class="mdi mdi-twitter"></span></a>
-                            <a href="#"><span class="mdi mdi-pinterest"></span></a>
-                            <a href="#"><span class="mdi mdi-instagram"></span></a>
+                    <div class="img-wrapper animated-img-wrapper">
+                        <div class="overlay">
+                            <a href="#" class="mdi mdi-facebook"></a>
+                            <a href="#" class="mdi mdi-twitter"></a>
+                            <a href="#" class="mdi mdi-pinterest"></a>
+                            <a href="#" class="mdi mdi-instagram"></a>
                         </div>
+                        <img src="./images/team/christopher-campbell.png" alt="flower pot">
                     </div>
-
-                    <div class="img-wrapper">
-                        <div class="main-picture">
-                            <a href="#"><span class="mdi mdi-facebook"></span></a>
-                            <a href="#"><span class="mdi mdi-twitter"></span></a>
-                            <a href="#"><span class="mdi mdi-pinterest"></span></a>
-                            <a href="#"><span class="mdi mdi-instagram"></span></a>
+                    <div class="img-wrapper animated-img-wrapper">
+                        <div class="overlay">
+                            <a href="#" class="mdi mdi-facebook"></a>
+                            <a href="#" class="mdi mdi-twitter"></a>
+                            <a href="#" class="mdi mdi-pinterest"></a>
+                            <a href="#" class="mdi mdi-instagram"></a>
                         </div>
+                        <img src="./images/team/michael-fertig.png" alt="laptop">
+                    </div>
+                </div>
+                <div class="name-container">
+                    <div class="name-info">
+                        <h3 class="name light black medium">MATTHEW DIX</h3>
+                        <h4 class="speciality extra-small normal">Graphic Design</h4>
                     </div>
 
-                    <div class="name-container">
-                        <h3>MATTHEW DIX</h3>
-                        <h4>Graphic Design</h4>
+                    <div class="name-info">
+                        <h3 class="name light black medium">CHRISTOPHER CAMPBELL</h3>
+                        <h4 class="speciality extra-small normal">Branding/UX design</h4>
                     </div>
 
-                    <div class="name-container">
-                        <h3>CHRISTOPHER CAMPBELL</h3>
-                        <h4>Branding/UX design</h4>
-                    </div>
-
-                    <div class="name-container">
-                        <h3>MICHAEL FERTIG</h3>
-                        <h4>Developer</h4>
+                    <div class="name-info">
+                        <h3 class="name light black medium">MICHAEL FERTIG</h3>
+                        <h4 class="speciality extra-small normal">Developer</h4>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="logos">
+        <div class="logos top-spaced-section">
             <div class="container">
                 <a href="#"><img src="./images/logo/img-1.png" alt="logo 1"></a>
                 <a href="#"><img src="./images/logo/img-2.png" alt="logo 2"></a>
@@ -415,107 +425,127 @@
         </div>
     </section>
 
-    <section class="what-we-do">
+    <section class="what-we-do top-spaced-section">
+        <div class="container">
         <h3 class="sub-head">What we do</h3>
         <h3 class="main-head">SOME OF OUR WORK</h3>
-        <hr class="orange-hr">
-        <div class="container">
-            <p class="describe">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.
-            </p>
+        <p class="describe">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et
+            dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.
+        </p>  
         </div>
+        <!-- Gallery -->
         <div class="gallery">
             <div class="img-wrapper">
-                <div class="info">
-                    <i class="mdi mdi-crown"></i>
-                    <h3>CREATIVELY DESIGNED</h3>
+                <div class="overlay">
+                    <a href="#">
+                    <i class="mdi mdi-crown extra-large"></i>
+                    <h3 class="light">CREATIVELY DESIGNED</h3>
                     <p>Lorem ipsum dolor sit</p>
+                    </a>
                 </div>
                 <img src="./images/gallery/img-1.jpg" alt="guy near ocean">
             </div>
             <div class="img-wrapper">
-                <div class="info">
-                    <i class="mdi mdi-crown"></i>
-                    <h3>CREATIVELY DESIGNED</h3>
-                    <p>Lorem ipsum dolor sit</p>
+                <div class="overlay">
+                    <a href="#">
+                        <i class="mdi mdi-crown extra-large"></i>
+                        <h3 class="light">CREATIVELY DESIGNED</h3>
+                        <p>Lorem ipsum dolor sit</p>
+                    </a>
                 </div>
                 <img src="./images/gallery/img-2.jpg" alt="bridge">
             </div>
             <div class="img-wrapper">
-                <div class="info">
-                    <i class="mdi mdi-crown"></i>
-                    <h3>CREATIVELY DESIGNED</h3>
-                    <p>Lorem ipsum dolor sit</p>
+                <div class="overlay">
+                    <a href="#">
+                        <i class="mdi mdi-crown extra-large"></i>
+                        <h3 class="light">CREATIVELY DESIGNED</h3>
+                        <p>Lorem ipsum dolor sit</p>
+                    </a>
                 </div>
                 <img src="./images/gallery/img-3.jpg" alt="jellyfish">
             </div>
             <div class="img-wrapper">
-                <div class="info">
-                    <i class="mdi mdi-crown"></i>
-                    <h3>CREATIVELY DESIGNED</h3>
-                    <p>Lorem ipsum dolor sit</p>
+                <div class="overlay">
+                    <a href="#">
+                        <i class="mdi mdi-crown extra-large"></i>
+                        <h3 class="light">CREATIVELY DESIGNED</h3>
+                        <p>Lorem ipsum dolor sit</p>
+                    </a>
                 </div>
                 <img src="./images/gallery/img-4.jpg" alt="window">
             </div>
             <div class="img-wrapper">
-                <div class="info">
-                    <i class="mdi mdi-crown"></i>
-                    <h3>CREATIVELY DESIGNED</h3>
-                    <p>Lorem ipsum dolor sit</p>
+                <div class="overlay">
+                    <a href="#">
+                        <i class="mdi mdi-crown extra-large"></i>
+                        <h3 class="light">CREATIVELY DESIGNED</h3>
+                        <p>Lorem ipsum dolor sit</p>
+                    </a>
                 </div>
                 <img src="./images/gallery/img-5.jpg" alt="long bridge">
             </div>
             <div class="img-wrapper">
-                <div class="info">
-                    <i class="mdi mdi-crown"></i>
-                    <h3>CREATIVELY DESIGNED</h3>
-                    <p>Lorem ipsum dolor sit</p>
+                <div class="overlay">
+                    <a href="#">
+                        <i class="mdi mdi-crown extra-large"></i>
+                        <h3 class="light">CREATIVELY DESIGNED</h3>
+                        <p>Lorem ipsum dolor sit</p>
+                    </a>
                 </div>
                 <img src="./images/gallery/img-6.jpg" alt="city">
             </div>
             <div class="img-wrapper">
-                <div class="info">
-                    <i class="mdi mdi-crown"></i>
-                    <h3>CREATIVELY DESIGNED</h3>
-                    <p>Lorem ipsum dolor sit</p>
+                <div class="overlay">
+                    <a href="#">
+                        <i class="mdi mdi-crown extra-large"></i>
+                        <h3 class="light">CREATIVELY DESIGNED</h3>
+                        <p>Lorem ipsum dolor sit</p>
+                    </a>
                 </div>
                 <img src="./images/gallery/img-7.jpg" alt="building">
             </div>
         </div>
 
-        <div class="work-review">
+        <div class="quote">
             <div class="container">
-                <a class="mdi mdi-chevron-left" href="#"></a>
+                <a href="#" class="mdi chevron mdi-chevron-left extra-large"></a>
                 <div class="img-wrapper">
-                    <img src="./images/testimonial/img-1.jpg" alt="white girl">
+                    <img src="./images/testimonial/img-1.jpg" alt="Joshua Earle">
                 </div>
-                <div class="quotation">
-                    <blockquote>
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                <div>
+                    <blockquote class="medium">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
                     </blockquote>
-                    <h3 class="author">Joshua Earle</h3>
+                    <h3 class="author orange-hr-before">
+                        Joshua Earle
+                    </h3>
                 </div>
-                <a class="mdi mdi-chevron-right"></a>
+                <a href="#" class="mdi chevron mdi-chevron-right extra-large"></a>
             </div>
         </div>
     </section>
 
-    <section class="clients">
+    <section class="client-review top">
         <div class="container">
             <h3 class="sub-head">Happy Clients</h3>
-            <h3 class="main-head">WHAT PEOPLE SAY</h3>
-            <div class="clients-review">
+            <h3 class="main-head orange-hr-down">WHAT PEOPLE SAY</h3>
+            <div class="clients">
                 <div class="client">
-                    <img src="./images/clients/img-1.jpg" alt="white female">
-                    <div class="details">
-                        <h3>MATTHEW DIX</h3>
-                        <h4>Graphics Design</h4>
-                        <p>
+                    <div class="img-wrapper">
+                        <img src="./images/clients/img-2.jpg" alt="white female">
+                    </div>
+                    <div class="client-info">
+                        <h3 class="light black">MATTHEW DIX</h3>
+                        <h4 class="extra-small normal">Graphics Design</h4>
+                        <p class="extra-small">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo illo cupiditate temporibus
                             sapiente, sint, voluptatibus
                             tempora esse. Consectetur voluptate nihil quo nulla voluptatem dolorem harum nostrum
@@ -523,11 +553,13 @@
                     </div>
                 </div>
                 <div class="client">
-                    <img src="./images/clients/img-2.jpg" alt="white male">
-                    <div class="details">
-                        <h3>NICK KARVOUNIS</h3>
-                        <h4>Graphics Design</h4>
-                        <p>
+                    <div class="img-wrapper">
+                        <img src="./images/clients/img-3.jpg" alt="white female">
+                    </div>
+                    <div class="client-info">
+                        <h3 class="light black">JAELYNN CASTELLO</h3>
+                        <h4 class="extra-small normal">Graphics Design</h4>
+                        <p class="extra-small">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo illo cupiditate temporibus
                             sapiente, sint, voluptatibus
                             tempora esse. Consectetur voluptate nihil quo nulla voluptatem dolorem harum nostrum
@@ -535,11 +567,13 @@
                     </div>
                 </div>
                 <div class="client">
-                    <img src="./images/clients/img-3.jpg" alt="white female">
-                    <div class="details">
-                        <h3>JAYLLIN CASTELLO</h3>
-                        <h4>Graphics Design</h4>
-                        <p>
+                    <div class="img-wrapper">
+                        <img src="./images/clients/img-1.jpg" alt="white female">
+                    </div>
+                    <div class="client-info">
+                        <h3 class="light black">JOSHUA EARLE</h3>
+                        <h4 class="extra-small normal">Graphics Design</h4>
+                        <p class="extra-small">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo illo cupiditate temporibus
                             sapiente, sint, voluptatibus
                             tempora esse. Consectetur voluptate nihil quo nulla voluptatem dolorem harum nostrum
@@ -547,11 +581,13 @@
                     </div>
                 </div>
                 <div class="client">
-                    <img src="./images/clients/img-4.jpg" alt="white male">
-                    <div class="details">
-                        <h3>JOHN DOE</h3>
-                        <h4>Graphics Design</h4>
-                        <p>
+                    <div class="img-wrapper">
+                        <img src="./images/clients/img-4.jpg" alt="white female">
+                    </div>
+                    <div class="client-info">
+                        <h3 class="light black">NICK KARVOUNIS</h3>
+                        <h4 class="extra-small normal">Graphics Design</h4>
+                        <p class="extra-small">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo illo cupiditate temporibus
                             sapiente, sint, voluptatibus
                             tempora esse. Consectetur voluptate nihil quo nulla voluptatem dolorem harum nostrum
@@ -563,100 +599,93 @@
         </div>
     </section>
 
-    <section class="blog-wrapper">
+    <section class="stories-section top-spaced-section">
         <div class="container">
             <h3 class="sub-head">Our Stories</h3>
-            <h3 class="main-head">LATEST BLOG</h3>
-            <hr class="orange-hr">
-            <div class="blog-container">
-                <div class="blog">
+            <h3 class="main-head orange-hr-down">LATEST BLOG</h3>
+            <div class="stories">
+                <div class="story">
                     <a href="#" class="img-wrapper">
                         <img src="./images/blog/img-1.jpg" alt="girl writing">
+                        <div class="date white">
+                            <div class="day-of-month">15</div>
+                            <div class="month">Jan</div>
+                        </div>
                     </a>
-                    <div class="date">
-                        <span>14</span>
-                        <span>Jan</span>
-                    </div>
-                    <a class="caption" href="#">LOREM IPSUM DOLOR SIT AMET</a>
-                    <p>
+                    <a href="#" class="greenish light">LOREM IPSUM DOLOR SIT AMET</a>
+                    <p class="extra-small">
                         Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                    <hr>
                     <a href="#">
-                        <i class="mdi mdi-eye"></i><span class="views">543</span>
-                        <i class="mdi mdi-comment"></i><span class="comment">15</span>
+                        <i class="mdi mdi-eye bluish"></i><span class="views">543</span>
+                        <i class="mdi mdi-comment bluish"></i><span class="comment">15</span>
                     </a>
                 </div>
 
-                <div class="blog">
+                <div class="story">
                     <a href="#" class="img-wrapper">
                         <img src="./images/blog/img-2.jpg" alt="girl writing">
+                        <div class="date white">
+                            <div class="day-of-month">12</div>
+                            <div class="month">Jan</div>
+                        </div>
                     </a>
-                    <div class="date">
-                        <span>15</span>
-                        <span>Jan</span>
-                    </div>
-                    <a class="caption" href="#">INCIDIDUNT UT LABORE ET DOLORE</a>
-                    <p>
-                        Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    <a href="#" class="greenish light">LOREM IPSUM DOLOR SIT AMET</a>
+                    <p class="extra-small">
+                        Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                    <hr>
                     <a href="#">
-                        <i class="mdi mdi-eye"></i><span class="views">964</span>
-                        <i class="mdi mdi-comment"></i><span class="comment">43</span>
+                        <i class="mdi mdi-eye bluish"></i><span class="views">543</span>
+                        <i class="mdi mdi-comment bluish"></i><span class="comment">15</span>
                     </a>
                 </div>
 
-                <div class="blog">
-                    <a class="img-wrapper" href="#">
+                <div class="story">
+                    <a href="#" class="img-wrapper">
                         <img src="./images/blog/img-3.jpg" alt="girl writing">
+                        <div class="date white">
+                            <div class="day-of-month">10</div>
+                            <div class="month">Jan</div>
+                        </div>
                     </a>
-                    <div class="date">
-                        <span>12</span>
-                        <span>Jan</span>
-                    </div>
-                    <a class="caption" href="#">SED DO EIUSMOD TEMPOR</a>
-                    <p>
-                        Elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    <a href="#" class="greenish light">LOREM IPSUM DOLOR SIT AMET</a>
+                    <p class="extra-small">
+                        Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                    <hr>
                     <a href="#">
-                        <i class="mdi mdi-eye"></i><span class="views">1264</span>
-                        <i class="mdi mdi-comment"></i><span class="comment">69</span>
+                        <i class="mdi mdi-eye bluish"></i><span class="views">543</span>
+                        <i class="mdi mdi-comment bluish"></i><span class="comment">15</span>
                     </a>
-
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="map">
-        <a href="#">
+    <section class="map top-spaced-section">
+        <a href="#" class="orange-hr-down">
             <h3 class="mdi mdi-map-marker"></h3>
-            <h2>OPEN MAP</h2>
+            <h2 class="large">OPEN MAP</h2>
         </a>
-        <hr>
     </section>
 
     <footer>
-        <div class="container upper">
+        <div class="container">
             <div class="footer1">
-                <a href="#">
+                <a href="#" class="large">
                     <h2>MOGO</h2>
                 </a>
-                <p class="description">
+                <p class="footer-description extra-small">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                     commodo consequat.
                 </p>
 
-                <p class="follower-count">
-                    <span>15k</span>followers
+                <p class="followers">
+                    <span class="bold large black">15k </span>followers
                 </p>
-                <hr>
-                <div class="follow-us">
-                    <span>Follow us:</span>
+                <div class="follow-us bluish large">
+                    <span class="graish small">Follow us:</span>
                     <a href="#" class="mdi mdi-facebook"></a>
                     <a href="#" class="mdi mdi-twitter"></a>
                     <a href="#" class="mdi mdi-instagram"></a>
@@ -668,96 +697,92 @@
                 </div>
                 <form action="/process">
                     <input type="text" placeholder="Your Email">
-                    <button type="submit" class="submit">SUBSCRIBE</button>
+                    <button type="submit" class="white bold medium">SUBSCRIBE</button>
                 </form>
             </div>
             <div class="footer2">
-                <h2>BLOGS</h2>
-                <div class="footer-blog">
+                <h2 class="black medium light">BLOGS</h2>
+                <div class="blog">
                     <a href="#" class="img-wrapper">
                         <img src="./images/blog/img-4.jpg" alt="lights">
                     </a>
-                    <div class="description">
-                        <a href="#" class="description">
-
-                            <h3>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING</h3>
+                    <div>
+                        <a href="#">
+                            <h3 class="greenish extra-small normal">LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING</h3>
                         </a>
-                        <time datetime="2016-01-09">Jan 9, 2016</time>
+                        <time datetime="2016-01-09" class="extra-small">Jan 9, 2016</time>
                     </div>
                 </div>
-                <div class="footer-blog">
+                <div class="blog">
                     <a href="#" class="img-wrapper">
                         <img src="./images/blog/img-5.jpg" alt="lights">
                     </a>
-                    <div class="description">
-                        <a href="#" class="description">
-
-                            <h3>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING</h3>
+                    <div>
+                        <a href="#">
+                            <h3 class="greenish extra-small normal">LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING</h3>
                         </a>
-                        <time datetime="2016-01-09">Jan 9, 2016</time>
+                        <time datetime="2016-01-09" class="extra-small">Jan 9, 2016</time>
                     </div>
                 </div>
-                <div class="footer-blog">
+                <div class="blog">
                     <a href="#" class="img-wrapper">
                         <img src="./images/blog/img-6.jpg" alt="lights">
                     </a>
-                    <div class="description">
-                        <a href="#" class="description">
-                            <h3>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING</h3>
+                    <div>
+                        <a href="#">
+                            <h3 class="greenish extra-small normal">LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING</h3>
                         </a>
-                        <time datetime="2016-01-09">Jan 9, 2016</time>
+                        <time datetime="2016-01-09" class="extra-small">Jan 9, 2016</time>
                     </div>
                 </div>
             </div>
             <div class="footer3">
-                <h2>INSTAGRAM</h2>
-                <div class="image-grid">
-                    <div class="img-wrapper">
+                <h2 class="black medium light">INSTAGRAM</h2>
+                <div class="grid-gallery">
+                    <div>
                         <img src="./images/instagram/img-1.jpg" alt="image 1">
                     </div>
-                    <div class="img-wrapper">
+                    <div>
                         <img src="./images/instagram/img-2.jpg" alt="image 2">
                     </div>
-                    <div class="img-wrapper">
+                    <div>
                         <img src="./images/instagram/img-3.jpg" alt="image 3">
                     </div>
-                    <div class="img-wrapper">
+                    <div>
                         <img src="./images/instagram/img-4.jpg" alt="image 4">
                     </div>
-                    <div class="img-wrapper">
+                    <div>
                         <img src="./images/instagram/img-5.jpg" alt="image 5">
                     </div>
-                    <div class="img-wrapper">
+                    <div>
                         <img src="./images/instagram/img-6.jpg" alt="image 6">
                     </div>
-                    <div class="img-wrapper">
+                    <div>
                         <img src="./images/instagram/img-7.jpg" alt="image 7">
                     </div>
-                    <div class="img-wrapper">
+                    <div>
                         <img src="./images/instagram/img-8.jpg" alt="image 8">
                     </div>
-                    <div class="img-wrapper">
+                    <div>
                         <img src="./images/instagram/img-9.jpg" alt="image 9">
                     </div>
-                    <div class="img-wrapper">
+                    <div>
                         <img src="./images/instagram/img-8.jpg" alt="image 8">
                     </div>
-                    <div class="img-wrapper">
+                    <div>
                         <img src="./images/instagram/img-2.jpg" alt="image 2">
                     </div>
-                    <div class="img-wrapper">
+                    <div>
                         <img src="./images/instagram/img-6.jpg" alt="image 6">
                     </div>
                 </div>
                 <p>View more photos</p>
             </div>
         </div>
-        <div class="container lower">
-            <hr>
-            <p>No Copyright &commat; 2020 <a href="#">Example.com</a>. No Rights Reserved</p>
-            <p>MoGo free PSD template by <a href="#">Udeshya</a></p>
+        <div class="foot extra-small">
+            <p>No Copyright &commat; 2020 <a href="#" class="greenish">Example.com</a>. No Rights Reserved</p>
+            <p>MoGo free PSD template by <a href="#" class="greenish">Udeshya</a></p>
         </div>
     </footer>
 </body>
-
 </html>

@@ -1,11 +1,5 @@
 .container {
-    width: 85%;
-    margin: auto;
-}
-
-.orange-hr {
-    border: 1px solid orange;
-    width: 50px;
+    width: 1160px;
     margin: auto;
 }
 
@@ -13,6 +7,11 @@ body {
     font-family: sans-serif;
     color: #999;
     font-size: 14px;
+}
+
+* img {
+    display: block;
+    width: 100%;
 }
 
 /* USED FREQUENTLY */
@@ -108,7 +107,6 @@ body {
 
 header {
     background-image: linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9)), url("./images/eagle.jpg");
-    color: white;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -321,10 +319,9 @@ header .material-icons {
     background-color: #999;
 }
 
-/* FOR ALL DEVICES */
+/* **********FOR ALL DEVICES********* */
 
 .for-all-dev {
-    margin: 60px 0 100px 0;
     padding-top: 60px;
     background-image: url('./images/unique-design-background.jpg');
     background-size: cover;
@@ -351,30 +348,25 @@ header .material-icons {
     bottom: -12%;
 }
 
-/* What we do section */
+/* **********SERVICE SECTION********** */
 
 .photo-and-description {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(455px, 1fr));
+    margin: auto;
+    width: 1140px;
     column-gap: 30px;
-    margin-bottom: 75px;
-    height: 400px;
-}
-
-.photo-and-description img {
-    width: 100%;
-    height: 100%;
 }
 
 .service-description .scrolls+.scrolls {
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
 .service-description h3 {
     border: 1px solid rgb(226, 226, 226);
     font-weight: normal;
     display: flex;
-    padding: 8px;
+    padding: 5px;
     align-items: center;
 }
 
@@ -394,7 +386,7 @@ header .material-icons {
 }
 
 .service-description .p-container {
-    padding: 15px;
+    padding: 10px 4px 10px 10px;
 }
 
 .service-description .scrolls:nth-child(n+1):nth-child(n+2) div {
@@ -409,6 +401,7 @@ header .material-icons {
     height: 80px;
     overflow-y: scroll;
     font-size: 13px;
+    padding: 0 15px 0 0;
     color: gray;
     font-style: oblique;
 }
@@ -417,63 +410,32 @@ header .material-icons {
     cursor: pointer;
 }
 
-.service-review {
-    background-color: #f1f1f1;
+/* Quote just below service */
+
+.comment {
+    background: #f8f8f8;
 }
 
-.service-wrapper {
+.comment .container {
+    margin-top: 80px;
     display: grid;
+    grid-template-columns: 1fr 3fr 20fr 1fr;
     padding: 50px 0;
-    grid-template-columns: 1fr 15fr 1fr;
     justify-items: center;
     align-items: center;
 }
 
-.service-wrapper .material-icons {
+.comment .chevron {
     font-size: 36px;
-    color: rgb(185, 185, 185);
-    float: left;
 }
 
-.service-wrapper>a:first-child {
-    justify-self: left;
+.comment .logo {
+    font-size: 72px;
 }
 
-.service-wrapper>a:last-child {
-    justify-self: right;
-}
+/* *************OUR TEAM SECTION************ */
 
-/* Quote just below service */
-
-.quote {
-    font-size: 18px;
-    padding: 0 20px;
-}
-
-.quote .img-wrapper {
-    float: left;
-    margin-right: 20px;
-}
-
-.quote .material-icons {
-    color: rgb(149, 225, 211);
-    font-size: 108px;
-    margin-right: 40px;
-}
-
-.quote blockquote {
-    line-height: 1.5em;
-    font-style: italic;
-    color: gray;
-    margin-bottom: 20px;
-}
-
-.quote>h4 {
-    font-family: 'Kaushan Script', cursive;
-    color: gray;
-    display: inline-block;
-    /* padding-left: 60px; */
-}
+/* Name container */
 
 .quote>h4::before {
     content: "";
@@ -577,12 +539,13 @@ header .material-icons {
 
 .logos {
     background-color: #f8f8f8;
+    margin-top: 60px;
 }
 
 .logos .container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    column-gap: 40px;
+    column-gap: 3%;
     padding: 40px 0;
 }
 
@@ -599,21 +562,12 @@ header .material-icons {
     /* width: 100%; */
 }
 
-.logos a:hover {
-    scale: 1.10;
-}
-
 /* What we do */
-
-.what-we-do {
-    padding-top: 100px;
-}
-
 .what-we-do .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     row-gap: 0;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 .what-we-do .gallery .img-wrapper {
@@ -666,6 +620,9 @@ header .material-icons {
     background: linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9))
 }
 
+.work-review{
+    border: 1px solid black;
+}
 .work-review .container {
     display: grid;
     grid-template-columns: 1fr 3fr 9fr 1fr;
@@ -693,7 +650,7 @@ header .material-icons {
     border-radius: 50%;
 }
 
-.work-review .quotation {
+.quotation {
     display: flex;
     flex-direction: column;
     justify-content: center;
