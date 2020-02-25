@@ -1,0 +1,298 @@
+@media only screen and (max-width: 1200px) {
+    /* General */
+    .container {
+        width: 970px;
+    }
+    /* Accordion */
+    .scrolls>div {
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    /* General */
+    .container {
+        width: 738px;
+    }
+    .top-spaced-section {
+        margin-top: 50px;
+    }
+    .describe {
+        font-size: 12px;
+    }
+    .extra-large {
+        font-size: 20px;
+    }
+    .large {
+        font-size: 16px;
+    }
+    .medium {
+        font-size: 12px;
+    }
+    .small {
+        font-size: 12px;
+    }
+    .extra-small {
+        font-size: 12px;
+    }
+    /* Header */
+    .hero h2:nth-child(1) {
+        font-size: 55px;
+    }
+    .hero h2:nth-child(2) {
+        font-size: 100px;
+    }
+    /* Story */
+    .overlay i {
+        font-size: 12px;
+    }
+    .counter h4 {
+        font-size: 50px;
+    }
+    .counter p {
+        font-size: 10px;
+    }
+    /* WORK WITH SECTION */
+    .works {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .works>.work:nth-last-child(3) {
+        border-bottom: 1px solid #ccc;
+    }
+    /* Devices: phone and tablet */
+    #tablet {
+        width: 250px;
+    }
+    #phone {
+        width: 110px;
+        transform: translate(0, -12px);
+    }
+    /* Accordion part of what we do */
+    .grid-style-info {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .grid-style-info .img-wrapper {
+        width: 570px;
+        justify-self: center;
+    }
+    .accordion {
+        height: 350px;
+    }
+    /* OUR TEAM > LOGO SECTION */
+    .logos .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    /* CLIENT REVIEW */
+    .clients {
+        grid-template-columns: 1fr
+    }
+    /* FOOTER SECTION */
+    footer .container {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 60px;
+    }
+    .footer1 {
+        grid-column: span 2;
+    }
+    .footer1 form {
+        grid-template-columns: 8fr 2fr;
+    }
+    .footer1 form input {
+        height: 50px;
+    }
+    .footer3 .grid-gallery {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 500px;
+    }
+    body {
+        font-size: 12px;
+    }
+    .describe {
+        width: 90%;
+    }
+    /* Header section */
+    .nav-1 {
+        flex-direction: column;
+    }
+    .nav-1 nav ul {
+        display: grid;
+        margin-top: 20px;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    .nav-1 li {
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        padding: 5px;
+        text-align: center;
+    }
+    .nav-1 li:nth-last-child(1) {
+        grid-column: span 2;
+    }
+    .nav-1 a {
+        display: inline-block;
+        width: 100%;
+    }
+    .nav-1 li+li {
+        margin-left: 0;
+    }
+    .hero h2:nth-child(1) {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    .hero h2:nth-child(2) {
+        font-size: 60px;
+    }
+    /* Story section */
+    .animated-img-container {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        row-gap: 30px;
+    }
+    .animated-img-wrapper {
+        margin: auto;
+    }
+    /* counting section */
+    .counter li {
+        padding: 10px 0;
+    }
+    .counter li h4 {
+        font-size: 24px;
+    }
+    .counter li p {
+        font-size: 9px;
+    }
+    /* WORKS section */
+    .works {
+        grid-template-columns: 1fr;
+    }
+    /* what we do section */
+    .grid-style-info {
+        grid-template-columns: 1fr;
+    }
+    .grid-style-info .img-wrapper {
+        width: 90%;
+    }
+    .accordion {
+        height: 280px;
+    }
+    .grid-style-info .scrolls p {
+        height: 180px;
+    }
+    /* Our team section */
+    .team .team-member {
+        width: 75%;
+        justify-self: center;
+    }
+    /* Gallery section */
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .gallery .img-wrapper:nth-child(3) {
+        grid-column: auto;
+        grid-row: 2 / 4;
+    }
+    /* Stories section */
+    .stories {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .stories .date {
+        position: absolute;
+        left: -5px;
+        bottom: 5px;
+    }
+    .stories p {
+        margin-top: 5px;
+    }
+    /* Map section */
+    .map {
+        padding: 20px;
+    }
+    footer .container {
+        grid-template-columns: 1fr;
+    }
+    .footer1 {
+        grid-column: span 1;
+    }
+    .footer2 .blog {
+        margin-top: 20px;
+    }
+    .grid-gallery {
+        width: 100%
+    }
+}
+
+@media only screen and (max-width: 518px) {
+    .container {
+        width: 100vw;
+        padding: 0 10px;
+    }
+    /* Header section */
+    .nav-2 {
+        font-size: 10px;
+    }
+    .nav-2 ol {
+        column-gap: 10px;
+        justify-content: space-between;
+    }
+    .nav-2 li span {
+        margin-right: 5px;
+    }
+    /* Story section */
+    /* Counter section */
+    .counter ul {
+        grid-template-columns: 1fr;
+    }
+    .counter li {
+        padding: 10px 0;
+        border-left: none;
+        border-bottom: 1px solid #fff;
+    }
+    .counter li:nth-last-child(1) {
+        border-right: none;
+        border-bottom: none;
+    }
+    .counter h4 {
+        font-size: 20px;
+    }
+    /* What we do section */
+    .service .img-wrapper {
+        width: 90%;
+    }
+    .scrolls>div {
+        height: 180px;
+    }
+    /* quote section after accordion */
+    .quote .container {
+        grid-template-columns: 1fr 8fr 1fr;
+    }
+    .quote .img-wrapper, .quote .logo {
+        display: none;
+    }
+    /* Our team */
+    .name-info {
+        margin-top: 5px;
+    }
+    /* Our team > logos */
+    .logos .container {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 0;
+        justify-content: center;
+    }
+    /* Gallery section */
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+    .gallery .img-wrapper:nth-child(3) {
+        grid-column: auto;
+        grid-row: auto;
+    }
+    /* Footer */
+}

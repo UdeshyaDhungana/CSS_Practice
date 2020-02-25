@@ -152,6 +152,7 @@ header {
 .nav-1 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-1 li+li {
@@ -322,25 +323,22 @@ header {
 .works {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 20px;
-    row-gap: 40px;
     position: relative;
 }
 
 .works>.work {
-    padding: 20px 0;
+    padding: 30px 30px;
+    border-bottom: 1px solid #ccc;
     display: flex;
 }
 
-.works>div:nth-child(1)::after {
-    content: "";
-    height: 1px;
-    display: block;
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    background-color: #ccc;
+/* Don't apply border on last 3 elemtns */
+
+.works>.work:nth-last-child(-n+3) {
+    border: none;
 }
+
+/* end */
 
 .work i {
     margin-right: 20px;
@@ -433,11 +431,12 @@ header {
     flex-grow: 1;
 }
 
-/* END */
+/* End of styling texts inside heading and paragraph in accordion */
 
 .scrolls>div {
     display: none;
     height: 200px;
+    font-family: "Roboto", sans-serif;
     padding: 5px;
 }
 
@@ -470,7 +469,7 @@ header {
     column-gap: 15px;
     justify-items: center;
     align-items: center;
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 .quote .logo {
@@ -505,17 +504,10 @@ header {
     background-color: rgba(243, 129, 129, 0.9);
 }
 
-/* Name container */
-
-.name-container {
-    margin-top: 30px;
-    display: grid;
+/* Name info of team member */
+.name-info{
     text-align: center;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.name-container .name {
-    margin-bottom: 5px;
+    margin-top: 20px;
 }
 
 /* LOGOS SECTION AFTER TEAM */
@@ -652,7 +644,6 @@ header {
 }
 
 .stories .day-of-month {
-    font-size: 32px;
     font-weight: bold;
     font-family: monospace;
 }
