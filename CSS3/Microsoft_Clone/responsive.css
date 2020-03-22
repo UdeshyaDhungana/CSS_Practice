@@ -1,0 +1,107 @@
+@media only screen and (max-width: 1084px){
+    .container{
+        padding: 0;
+    }
+    .fixed-container{
+        padding: 0 5%;
+    }
+    .products2{
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 70px;
+    }
+    /* Font size decrease */
+    .carousel .description{
+        font-size: 13px;
+    }
+    /* Divide footer into 3 rows */
+    .foot .category{
+        flex: 0 0 33%;
+    }
+    footer{
+        padding-top: 10px;
+    }
+    .category h3{
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 860px){
+    /* Don't display certain elements from navigation bar */
+    .fixed-container{
+        position: relative;
+    }
+    .left .highlight-on-hover{
+        display: none;
+    }
+    .mdi-menu{
+        display: inline-block;
+        font-size: 20px;
+        position: absolute;
+        left: 4%;
+        top: 30%;
+    }
+    .left li:nth-child(1){
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+    .right li:nth-child(1){
+        display: none;
+    }
+    .right .mdi-cart-outline{
+        position: absolute;
+        left: 15%;
+        top: 30%;
+    }
+    .carousel .description{
+        display: none;
+    }
+    .carousel-container button{
+        width: 30px;
+        height: 30px;
+    }
+    /* Products align vertically */
+    .products {
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 0;
+        width: 100%;
+    }
+    .product{
+        display: block;
+    }
+    .product a{
+        display: grid;
+        grid-template-columns: 1fr 6fr;
+        text-align: left;
+        
+    }
+    .product img{
+        width: 30px;
+    }
+}
+
+@media only screen and (max-width: 560px){
+    .discount{
+        font-size: 11px;
+    }
+    .carousel h2{
+        display: none;
+    }
+    .carousel .visit-link{
+        top: 50%;
+        transform: translate(0,-50%);
+        left: 12%;
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+    .products2{
+        grid-template-columns: 1fr;
+    }
+    /* footer and toes */
+    .foot .category{
+        flex: 0 0 100%;
+    }
+    .toe div{
+        display: none;
+    }
+}

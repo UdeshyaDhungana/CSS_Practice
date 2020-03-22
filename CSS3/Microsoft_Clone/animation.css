@@ -1,0 +1,63 @@
+/* USED IN FOOTER */
+.dark-from-second>*:not(:first-child):hover{
+    color: #000;
+    text-decoration: underline;
+}
+.dark-from-first>*:hover{
+    color: #000;
+    text-decoration: underline;
+}
+.dark-on-hover:hover{
+    color: #000;
+    text-decoration: underline;
+}
+/* USED IN BODY  */
+.highlight-on-hover{
+    padding-bottom: 1px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    transition: 0.3s ease-in-out;
+}
+.highlight-on-hover:hover{
+    border-bottom: 2px solid #000;
+}
+.movable{
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+}
+*:hover>.movable{
+    transform: translate(5px);
+}
+
+/* VISIT LINKS IN CAROUSELS */
+.both-child-movable span:nth-child(1){
+    transition: 0.3s ease-in-out;
+    display: inline-block;
+}
+.both-child-movable span:nth-child(2){
+    transition: 0.3s ease-in-out;
+    display: inline-block;
+}
+.both-child-movable:hover span:nth-child(1){
+    transform: translate(-5px);
+    text-decoration: underline;
+}
+.both-child-movable:hover span:nth-child(2){
+    transform: translate(5px);
+}
+
+/* UNDERLINE ON HOVER */
+.underline-on-hover{
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    transition: 0.3s ease-in-out;
+}
+.underline-on-hover:hover{
+    border-bottom: 2px solid;
+}
+
+.text-decorate-on-hover{
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.text-decorate-on-hover:hover{
+    text-decoration: underline;
+}

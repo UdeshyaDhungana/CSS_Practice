@@ -1,0 +1,331 @@
+a {
+    display: block;
+}
+
+/* Frequently used classes to minimize CSS */
+
+.container {
+    padding: 0 5%;
+}
+/* It won't be changed on responsive design */
+.fixed-container{
+    padding: 0 5%;
+}
+/* Fonts */
+
+.extra-small {
+    font-size: 11px;
+}
+
+.small {
+    font-size: 13px;
+}
+
+.medium {
+    font-size: 15px;
+}
+
+.big {
+    font-size: 20px;
+}
+
+.bigger {
+    font-size: 24px;
+}
+
+.dark {
+    color: #262626;
+}
+
+.ms-blue {
+    color: #0067b8;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+/* Positioning */
+
+.top-spaced-section {
+    margin-top: 45px;
+}
+
+/* Images */
+
+.img-wrapper img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* END */
+
+body {
+    font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* HEADER SECTION */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px 15px 5px;
+}
+
+/* Left navbar */
+
+.left li {
+    margin-right: 15px;
+}
+.mdi-menu{
+    display: none;
+}
+.left .img-wrapper {
+    width: 130px;
+    padding: 5px;
+    position: relative;
+    top: 10px;
+}
+
+/* RIGHT NAVBAR */
+
+.right .mdi {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.right li {
+    margin-left: 15px;
+}
+
+.right li:first-child {
+    padding-right: 10px;
+}
+
+.right .img-wrapper {
+    width: 32px;
+}
+
+.right .img-wrapper img {
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+}
+
+/* HERO SECTION */
+
+.discount {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    background-color: #0067b8;
+}
+.discount a{
+    padding: 12px 0;
+    border: 1px solid rgba(255, 255, 255, 0);
+    width: 100%;
+}
+/* CAROUSEL SECTION */
+/* This carousel is used in main carousel and static carousel */
+.carousel{
+    color: #fff;
+}
+a.carousel{
+    position: relative;
+}
+
+.carousel h2, .carousel p {
+    position: absolute;
+    left: 8%;
+}
+
+.carousel h2 {
+    top: 40%;
+}
+
+.carousel .description {
+    top: 50%;
+}
+
+.carousel .visit-link {
+    top: 60%;
+    padding: 10px 30px;
+    background-color: #fff;
+    color: #000;
+}
+
+/* Dynamic carousel, the one used inside hero section */
+.dynamic-carousel{
+    color: #000;
+}
+.dynamic-carousel .visit-link{
+    background-color: #000;
+    color: #fff;
+}
+
+/* LEFT AND RIGHT CHEVRONS */
+.carousel-container{
+    position: relative;
+}
+.carousel-container button{
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 24px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #fafafa;
+    color: #404040;
+    box-shadow: 0px 2px 5px rgb(102, 102, 102);
+    z-index: 100;
+}
+.carousel-container button:nth-child(1){
+    left: 0;
+}
+.carousel-container button:nth-last-child(1){
+    right: 0;
+}
+/* PRODUCTS SECTION */
+
+.products {
+    display: grid;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 20px;
+}
+
+.product {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.product p {
+    margin-top: 5px;
+    font-weight: bold;
+    line-height: 1.2em;
+}
+
+/* SECOND PRODUCTS SECTION */
+
+.products2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 25px;
+}
+
+.products2 img {
+    width: 100%;
+}
+
+.products2 p {
+    margin-top: 10px;
+    line-height: 1.2em;
+}
+
+.products2>a>h3 {
+    margin-top: 20px;
+}
+
+/* STATIC AD SECTION */
+
+
+/* FOR WORK SECTION */
+/* It is styled using properties of 'products2' class */
+
+.for-work h2 {
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+/* FOLLOW SECTION */
+
+.follow p {
+    display: inline-block;
+    font-size: 18px;
+    color: rgba(0, 0, 0, .6);
+    margin-right: 20;
+}
+
+.follow a {
+    font-size: 20px;
+    margin: auto 2px;
+    display: inline-block;
+}
+
+.follow a:nth-child(1) {
+    color: #3a5898;
+    margin-left: 10px;
+}
+
+.follow a:nth-child(2) {
+    color: #1da1f2;
+}
+
+.follow a:nth-child(3) {
+    color: #ff0000;
+}
+
+/* FOOTER PART */
+
+footer {
+    background: #f2f2f2;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+footer a {
+    font-size: 11px;
+    color: #616161;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.category * {
+    margin-top: 20px;
+}
+
+.category h3 {
+    color: #3f3f3f;
+}
+
+/* TOE SECTION */
+
+.toe {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.toe a {
+    display: inline-block;
+}
+
+.toe div a {
+    margin-left: 15px;
+}
+
+.toe .mdi {
+    font-size: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
