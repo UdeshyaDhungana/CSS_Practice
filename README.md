@@ -1,11 +1,10 @@
-# CSS_Practice
+## Some webpages I made using CSS only
 
-Some webpages I made using CSS.
+**HOSTED** [HERE](https://udeshyadhungana.github.io/CSS_Practice/)
 
-index.html is shortcut to my latest progress for hosting
+- CSS3 - Made using flexbox, grid.
 
-CSS3 - Made using flexbox, grid.
-
-CSS2 - Made without flex and grid
+- CSS2 - Made without flex and grid
 
 ***Images are not mine***
+
